@@ -6,7 +6,6 @@
 /*body*/
 
 body {
-
     /*animation: blinking 2s infinite;*/
 }
 
@@ -20,7 +19,6 @@ header {
     height: 70px;
     position: fixed;
     padding-right: 50%;
-    font-family: Arial, Helvetica, sans-serif, sans-serif;
 }
 
 
@@ -28,6 +26,7 @@ div.navbar {
     height: 100%;
     display: flex;
     width: 100%;
+    
     padding-bottom: 10px;
 }
 
@@ -37,6 +36,7 @@ div.navtext {
     padding-left:20%;
     width: 100%;
     padding-bottom: 10px;
+
 }
 
 img#logo {
@@ -48,14 +48,14 @@ img#logo {
 div.nav {
     font-size: 1.3em;
     margin-left: 20px;
-    margin-top: 5px;
+    margin-top: 7px;
     padding-bottom: 35px;
     padding-top: 0px;
     padding-left: 10px;
     padding-right: 10px;
     height: 10%;
-    font-family: Arial, Helvetica, sans-serif, sans-serif;
     border-radius: 10px;
+    margin-bottom: 1px;
 
 }
 
@@ -64,7 +64,7 @@ div.nav:hover {
 }
 
 div.nav:active {
-    text-decoration: 3px solid overline;;
+    text-decoration: 3px solid overline;
 }
 
 a.navobj {
@@ -73,6 +73,7 @@ a.navobj {
     font-family: 'Indie Flower', cursive;
     font-weight: bolder;
     font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
 
 }
 
@@ -82,23 +83,46 @@ a.navobj:hover {}
 /*Section style*/
 
 section.sectionformat {
-    margin-right: 10%;
-    margin-left: 10%;
     font-size: 2.25vw;
-    padding-top: 20%;
+    padding-top: 4.2%;
     background-color: aliceblue;
 }
 
+div#centralimg {
+
+    width: 100%;
+}
+
+img#centralimg {
+    width: 110%;
+    margin-left: -5%;
+
+}
+
+img#headingimg {
+    width: 20%;
+    position: absolute;
+    bottom: 20%;
+    padding-left: 20%;
+    opacity: 50%;
+}
+
+img#headingimg:hover {
+    opacity: 90%;
+}
+
 h1.heading {
-    font-family: Comic Sans MS;
-    font-size: 39px;
-    margin-bottom: 6px;
-    text-align: center;
-    background-image: url(rubyyyyy.png);
-    padding-bottom: 10%;
-    padding-top: 50px;
+    font-size: 3em;
     color: white;
-     animation: blinking 2s infinite; 
+    position:absolute;
+    bottom: 20%;
+    padding-left: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 70%;
+}
+
+h1.heading:hover {
+    opacity: 100%;
 }
 
 section#space {
