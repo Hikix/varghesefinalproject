@@ -9,7 +9,6 @@ body {
     /*animation: blinking 2s infinite;*/
 }
 
-
 /* Navbar styling */
 
 
@@ -19,6 +18,8 @@ header {
     height: 70px;
     position: fixed;
     padding-right: 50%;
+    top: 0;
+    padding-top: 1.5%;
 }
 
 
@@ -48,23 +49,22 @@ img#logo {
 div.nav {
     font-size: 1.3em;
     margin-left: 20px;
-    margin-top: 7px;
+    margin-top: -9px;
     padding-bottom: 35px;
-    padding-top: 0px;
+    padding-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
     height: 10%;
-    border-radius: 10px;
     margin-bottom: 1px;
 
 }
 
 div.nav:hover {
-    text-decoration: 3px solid overline;
+    border-top: 3px solid white
 }
 
 div.nav:active {
-    text-decoration: 3px solid overline;
+    border-top: 3px solid white
 }
 
 a.navobj {
@@ -74,13 +74,14 @@ a.navobj {
     font-weight: bolder;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif, sans-serif;
-
+    padding-top: 7px;
 }
 
 a.navobj:hover {}
 
 
-/*Section style*/
+
+/*Front image*/
 
 section.sectionformat {
     font-size: 2.25vw;
@@ -96,6 +97,7 @@ div#centralimg {
 img#centralimg {
     width: 110%;
     margin-left: -5%;
+    position: relative;
 
 }
 
@@ -125,12 +127,49 @@ h1.heading:hover {
     opacity: 100%;
 }
 
-section#space {
-    background-image: url(testbody.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+/* section spacer*/
+
+div.bar {
+    background-color: rgb(202, 98, 0);
+    padding-top: 5%;
+    margin: -1%;
 }
+/* second section */
+
+div#secondsection {
+    width: 110%;
+    margin-left: -5%;
+    background: rgb(75,44,0);
+    background: linear-gradient(90deg, rgba(75,44,0,1) 0%, rgba(180,96,0,1) 35%, rgba(0,76,205,1) 100%);
+    position: absolute;
+}
+
+div#smolimgplace {
+
+
+}
+
+img#smolimg {
+    width: 40%;
+    margin-top: 6%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+    border-radius:  10px;
+    float: left;
+
+}
+
+div#sidetext {
+    position: relative;
+    left: -3%;
+    padding-top: 5%;
+    text-align: center;
+}
+
+h1#subH1 {
+    font-size: 3em;
+}
+
 /*
 a.links {
     text-decoration: none;
