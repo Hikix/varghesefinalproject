@@ -6,7 +6,7 @@
 /*body*/
 
 body {
-    background-image: url(testbody.jpg);
+
     /*animation: blinking 2s infinite;*/
 }
 
@@ -78,6 +78,7 @@ a.navobj {
 
 a.navobj:hover {}
 
+
 /*Section style*/
 
 section.sectionformat {
@@ -101,8 +102,10 @@ h1.heading {
 }
 
 section#space {
-    margin-top: 30%;
-    margin-bottom: 30%;
+    background-image: url(testbody.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*
 a.links {
