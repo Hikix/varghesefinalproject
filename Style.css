@@ -1,0 +1,322 @@
+* {
+    /* border: 0.1em dotted; */
+
+}
+
+   /*body*/
+
+body {
+    background-color: rgba(164, 255, 255, 0.158);
+    /*animation: blinking 2s infinite;*/
+}
+
+
+/* Navbar styling */
+
+
+header {
+    background-color: rgba(255, 166, 0, 0.178);
+    margin: -0.5%;
+    height: 70px;
+
+}
+
+
+div.navbar {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+div.navtext {
+    height: 100%;
+    display: flex;
+    padding-left: 20%;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+img#logo {
+    width: 70px;
+    height: 70px;
+
+}
+
+div#special {
+    padding-left: 100px;
+}
+
+
+div.nav {
+    font-size: 1.3em;
+    margin-left: 20px;
+    margin-top: 1%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height: 10%;
+    background-color: blueviolet;
+}
+
+div.nav:hover {
+    /* animation: blinkbacks 2s infinite; */
+}
+
+a.navobj {
+    text-decoration: none;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+    font-size: 1em;
+
+}
+
+a.navobj:hover {
+    color: red;
+    /* animation: blinks 2s infinite; */
+}
+
+/*Section style*/
+/*
+section.sectionformat {
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 2.25vw;
+    margin-bottom: 1em;
+    background-image: url(websitebackground2.png);
+}
+
+h1.heading {
+    font-family: Comic Sans MS;
+    font-size: 39px;
+    margin-bottom: 6px;
+    text-align: center;
+    background-image: url(rubyyyyy.png);
+    padding-bottom: 10%;
+    padding-top: 50px;
+    color: white;
+    /* animation: blinking 2s infinite; */
+}
+
+a.links {
+    text-decoration: none;
+    color: violet;
+
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p.links {
+    text-align: center;
+}
+
+a.links:hover {
+    /* animation: blinks 2s infinite; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a.links:active {
+    text-decoration: dotted;
+    color: brown;
+}
+
+a.links:visited {
+    text-decoration: dashed;
+    color: darkorchid;
+}
+
+a.inlinelinks {
+    text-decoration: none;
+    color: violet;
+
+}
+
+a.inlinelinks:hover {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    /* animation: blinks 2s infinite; */
+}
+
+a.inlinelinks:active {
+    text-decoration: dotted;
+    color: brown;
+}
+
+
+
+
+h2.subH {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    /* animation: blinking 2s infinite; */
+    text-align: center;
+}
+
+section {
+    background-color: rgb(169, 245, 245);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: rgb(80, 80, 146) solid 10px;
+    /* animation: borderblinking 2s infinite; */
+
+}
+
+footer {
+    background-color: rgb(169, 245, 245);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: rgb(80, 80, 146) solid 10px;
+    /* animation: borderblinking 2s infinite; */
+}
+
+img.scrollup {
+    width: 30px;
+
+}
+
+div.scroll {
+    position: fixed;
+    background-color: white;
+    border: white solid 5px;
+    bottom: 25px;
+    left: 635px;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 80%;
+}
+
+@keyframes blinks {
+    0% {
+        color: greenyellow;
+    }
+
+    50% {
+        color: orange;
+    }
+
+    100% {
+        color: antiquewhite;
+    }
+}
+
+@keyframes blinkbacks {
+    0% {
+        background-color: blue;
+    }
+
+    50% {
+        background-color: purple;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+@keyframes blinking {
+    0% {
+        color: red;
+    }
+
+    10% {
+        color: whitesmoke;
+    }
+
+    20% {
+        color: green;
+    }
+
+    30% {
+        color: yellow;
+    }
+
+    40% {
+        color: orange;
+    }
+
+    50% {
+        color: rgb(81, 173, 81);
+    }
+
+    60% {
+        color: orangered;
+    }
+
+    70% {
+        color: rgb(130, 137, 233);
+    }
+
+    80% {
+        color: rgb(98, 128, 18);
+    }
+
+    90% {
+        color: rgb(224, 112, 146);
+    }
+
+    100% {
+        color: rgb(80, 80, 146);
+    }
+}
+
+@keyframes borderblinking {
+    0% {
+        border-color: red;
+    }
+
+    10% {
+        border-color: whitesmoke;
+    }
+
+    20% {
+        border-color: green;
+    }
+
+    30% {
+        border-color: yellow;
+    }
+
+    40% {
+        border-color: orange;
+    }
+
+    50% {
+        border-color: rgb(81, 173, 81);
+    }
+
+    60% {
+        border-color: orangered;
+    }
+
+    70% {
+        border-color: rgb(130, 137, 233);
+    }
+
+    80% {
+        border-color: rgb(98, 128, 18);
+    }
+
+    90% {
+        border-color: rgb(224, 112, 146);
+    }
+
+    100% {
+        border-color: rgb(80, 80, 146);
+    }
+}
+
+
+p.text {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+*/
