@@ -105,7 +105,7 @@ img#headingimg {
     width: 20%;
     position: absolute;
     bottom: 20%;
-    padding-left: 20%;
+    margin-left: 20%;
     opacity: 50%;
 }
 
@@ -118,7 +118,7 @@ h1.heading {
     color: white;
     position: absolute;
     bottom: 20%;
-    padding-left: 40%;
+    margin-left: 40%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     opacity: 70%;
 }
