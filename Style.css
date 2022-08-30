@@ -94,7 +94,7 @@ div#centralimg {
     width: 100%;
 }
 
-img#centralimg {
+img#centrallimg {
     width: 110%;
     margin-left: -5%;
     position: relative;
@@ -229,7 +229,7 @@ section.sponsorsection {
 }
 
 h1#subH12 {
-    position:relative;
+    position: relative;
 }
 
 h1.placeholder {
@@ -239,6 +239,7 @@ h1.placeholder {
     text-align: center;
     padding-top: 10%;
 }
+
 /* section spacer*/
 
 div.barss {
@@ -252,6 +253,53 @@ div.barss {
 
 /*footer*/
 
+footer {
+    background-color: rgb(34, 34, 34);
+    width: 110%;
+    margin-left: -5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+div.footbar {
+    height: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+div.foot {
+    font-size: 1.25em;
+    text-align: center;
+    padding-bottom: 35px;
+    padding-top: 2%;
+    height: 50%;
+    width: calc(30% -30px);
+}
+
+h2 {
+    font-size: 1.4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: aliceblue; 
+    padding-left: 10%;
+}
+
+a.footobj {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: aliceblue;
+    padding-bottom: 1%;
+}
+
+img#logos {
+    width: 3%;
+    padding-top: 1%;
+}
 
 
 /*
