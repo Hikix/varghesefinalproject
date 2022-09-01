@@ -428,9 +428,14 @@ section#CurrentEintro {
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
-
+    max-height: fit-content;
     position: relative;
     margin: auto;
+}
+
+img.slideimage {
+    width: 52.1vw;
+    height: 30vw;
 }
 
 /* Hide the images by default */
