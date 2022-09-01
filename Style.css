@@ -576,22 +576,19 @@ section#Achievementsintro {
 section#resourceintro {
     width: 110%;
     margin-left: -5%;
-    background: rgb(34, 116, 195);
-    background: linear-gradient(0deg, rgba(34, 116, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
-}
+    padding-top: 10vw;
+    background: rgb(75, 44, 0);
+    background: linear-gradient(90deg, rgba(75, 44, 0, 1) 0%, rgba(180, 96, 0, 1) 35%, rgba(0, 76, 205, 1) 100%);
 
-h1#subH13 {
-    padding-top: 2%;
 }
 
 
 div#secondsection1 {
     width: 110%;
+    height: 50vw;
     margin-left: -5%;
-    background: rgb(75, 44, 0);
-    background: linear-gradient(90deg, rgba(75, 44, 0, 1) 0%, rgba(180, 96, 0, 1) 35%, rgba(0, 76, 205, 1) 100%);
-    margin-bottom: -10%;
-
+    margin-bottom: -20%;
+    margin-top: 5vw;
 }
 
 div#sidetext2 {
@@ -606,8 +603,8 @@ div#sidetext2 {
 }
 
 div#sidetext3 {
-    position: absolute;
-    left: -3%;
+    position: relative;
+    left: 2%;
     margin-left: 10%;
     margin-right: 10%;
     float: left;
@@ -654,9 +651,43 @@ div#thirdsection {
     background: rgb(75, 44, 0);
     background: linear-gradient(90deg, rgba(75, 44, 0, 1) 0%, rgba(180, 96, 0, 1) 35%, rgba(0, 76, 205, 1) 100%);
     padding-bottom: 40%;
-    margin-bottom: -1%;
+    margin-bottom: -10%;
 }
 
+/*contactus page*/
+
+section#contactusintro {
+    width: 110%;
+    margin-left: -5%;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    background: rgb(75, 44, 0);
+    background: linear-gradient(90deg, rgba(75, 44, 0, 1) 0%, rgba(180, 96, 0, 1) 35%, rgba(0, 76, 205, 1) 100%);
+}
+
+div#form {
+    margin-bottom: 2vw;
+}
+
+iframe#contactform {
+    padding-left: 35%;
+}
+
+div#maps {
+    padding-top: 1%;
+    padding-bottom: 2%;
+
+    background-color: rgba(233, 233, 233, 0.445);
+}
+
+iframe#maps {
+    padding-left: 33%;
+}
+
+h1#black {
+    color: black;
+    padding-right: ;
+}
 
 /*
 a.links {
