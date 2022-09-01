@@ -58,7 +58,7 @@ div.nav {
     padding-right: 10px;
     height: 10%;
     margin-bottom: 1px;
-    
+
 }
 
 div.nav:hover {
@@ -86,28 +86,36 @@ a.navobj:hover {}
 div#sponsors {
     border-top: 3px solid white
 }
+
 div#home {
     border-top: 3px solid white
 }
+
 div#about {
     border-top: 3px solid white
 }
+
 div#currente {
     border-top: 3px solid white
 }
+
 div#achievenments {
     border-top: 3px solid white
 }
+
 div#resources {
     border-top: 3px solid white
 }
+
 div#contactus {
     border-top: 3px solid white
 }
 
+/*main intro image*/
+
 img#centrallimg {
     width: 110%;
-    margin-left: -5%;
+    margin-left: -1%;
     position: relative;
 
 }
@@ -116,7 +124,7 @@ img#headingimg {
     width: 20%;
     position: absolute;
     bottom: 20%;
-    margin-left: 20%;
+    margin-left: 30%;
     opacity: 50%;
 }
 
@@ -129,7 +137,7 @@ h1.heading {
     color: white;
     position: absolute;
     bottom: 20%;
-    margin-left: 40%;
+    margin-left: 50%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     opacity: 70%;
 }
@@ -142,8 +150,11 @@ h1.heading:hover {
 
 div.bar {
     background-color: rgb(0, 48, 119);
-    padding-top: 2%;
-    margin: -1%;
+    padding-top: 1%;
+    position: absolute;
+    top: 66vw;
+    width: 110%;
+    margin-left: -1%;
 }
 
 /* second section */
@@ -221,11 +232,12 @@ p#aboutbutton:hover {
 
 div.bars {
     background-color: rgb(0, 48, 119);
+    margin-top: 1%;
     padding-top: 0.7%;
     position: absolute;
+    top: 50;
     width: 110%;
-    margin-left: -0.5%;
-    margin-top: 0.3%;
+    margin-left: -1%;
 }
 
 /* sponsor section */
@@ -317,7 +329,24 @@ img#logos {
 
 /*About us page*/
 
-div#secondsection1 {
+section.sectionformat {
+    margin-left: -0.5%;
+    width: 101%;
+    padding-top: 40%;
+    background-image: url(websitebackground.png);
+}
+
+div#centralimg {
+    width: 110%;
+    margin-left: -5%;
+    max-height: 10%;
+
+}
+
+
+
+
+div#secondsection0 {
     width: 110%;
     margin-left: -5%;
     background: rgb(75, 44, 0);
@@ -347,7 +376,7 @@ img#smolimg1 {
 
 }
 
-div#sidetext1 {
+div#sidetext0 {
     position: relative;
     left: 3%;
     padding-top: 5%;
@@ -429,7 +458,7 @@ section#CurrentEintro {
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
+    max-width: fit-content;
     max-height: fit-content;
     position: relative;
     margin: auto;
@@ -452,8 +481,8 @@ img.slideimage {
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -22px;
-    padding: 16px;
+    margin-top: -2%;
+    padding: 2%;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -465,7 +494,7 @@ img.slideimage {
 /* Position the "next button" to the right */
 .next {
     right: 0;
-    border-radius: 3px 0 0 3px;
+    border-radius: 1% 0% 0% 1%;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -547,8 +576,6 @@ section#Achievementsintro {
 section#resourceintro {
     width: 110%;
     margin-left: -5%;
-
-    padding-bottom: 10%;
     background: rgb(34, 116, 195);
     background: linear-gradient(0deg, rgba(34, 116, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
 }
@@ -563,24 +590,71 @@ div#secondsection1 {
     margin-left: -5%;
     background: rgb(75, 44, 0);
     background: linear-gradient(90deg, rgba(75, 44, 0, 1) 0%, rgba(180, 96, 0, 1) 35%, rgba(0, 76, 205, 1) 100%);
-    padding-bottom: 40%;
-    margin-bottom: -1%;
+    margin-bottom: -10%;
+
 }
 
 div#sidetext2 {
+    position: absolute;
+    right: -6%;
+    margin-right: 15%;
     float: right;
-    position: relative;
-    padding-left: 10%;
+    width: 30%;
+    background-color: orangered;
+    border-radius: 10%;
+    padding: 1% 1%;
 }
 
-div#sidetext1 {
-    position: relative;
-    left: 3%;
-    padding-top: 5%;
+div#sidetext3 {
+    position: absolute;
+    left: -3%;
     margin-left: 10%;
     margin-right: 10%;
     float: left;
     width: 30%;
+    background-color: blue;
+    border-radius: 10%;
+    padding: 1% 1%;
+}
+
+div.subH12 {
+    margin-top: -10%;
+}
+
+div#sidetext4 {
+    position: absolute;
+    right: -2%;
+    top: 1%;
+    margin-right: 15%;
+    float: right;
+    width: 30%;
+    background-color: orangered;
+    border-radius: 10%;
+    padding: 1% 1%;
+}
+
+div#sidetext5 {
+    position: absolute;
+    left: 2%;
+    top: 1%;
+    padding-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    float: left;
+    width: 30%;
+    background-color: blue;
+    border-radius: 10%;
+    padding: 1% 1%;
+}
+
+div#thirdsection {
+    position: relative;
+    width: 110%;
+    margin-left: -5%;
+    background: rgb(75, 44, 0);
+    background: linear-gradient(90deg, rgba(75, 44, 0, 1) 0%, rgba(180, 96, 0, 1) 35%, rgba(0, 76, 205, 1) 100%);
+    padding-bottom: 40%;
+    margin-bottom: -1%;
 }
 
 
