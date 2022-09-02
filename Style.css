@@ -240,6 +240,8 @@ div.bars {
     margin-left: -1%;
 }
 
+
+
 /* sponsor section */
 
 section.sponsorsection {
@@ -381,10 +383,10 @@ div#sidetext0 {
     left: 3%;
     padding-top: 5%;
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 5%;
     float: left;
     width: 30%;
-    padding-left: 10%;
+
 }
 
 h1.subH1 {
@@ -402,6 +404,12 @@ p.text1 {
 
 /*about us bar*/
 div#aboutusbar {
+    background-color: rgb(0, 48, 119);
+    padding-top: 0.7%;
+    position: absolute;
+
+    width: 110%;
+    margin-left: -1%;
     margin-top: 0%;
 }
 
@@ -1596,10 +1604,10 @@ p.text {
     div.bars {
         background-color: rgb(0, 48, 119);
         padding-top: 0.7%;
-        position: absolute;
-        top: 109vw;
         width: 110%;
         margin-left: -3%;
+
+        margin-top: -1%;
     }
 
     div#sidetext {
@@ -1646,4 +1654,3 @@ p.text {
 
 
 }
-
