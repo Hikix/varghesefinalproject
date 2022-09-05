@@ -31,9 +31,7 @@ img#logo {
     left: 1%;
 }
 
-div#title {
-
-}
+div#title {}
 
 a#titletext {
     text-decoration: none;
@@ -615,8 +613,7 @@ hr {
 }
 
 p#resourcelink {
-    text-align: center 
-    
+    text-align: center
 }
 
 a {
@@ -1640,7 +1637,7 @@ p.text {
 
 }
 
-@media (min-width : 1080px) {
+@media (min-width : 1720px) {
     div.bars {
         background-color: rgb(0, 48, 119);
         padding-top: 0.7%;
@@ -1692,5 +1689,293 @@ p.text {
         color: black;
     }
 
+
+}
+
+@media (min-width : 1200px) {
+
+    /*nav bar*/
+    header {
+        background-color: black;
+        margin: -0.75%;
+        height: 70px;
+        position: fixed;
+        padding-right: 50%;
+        top: 0;
+        padding-top: 1.25%;
+        width: 105%;
+    }
+
+    img#logo {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        left: 1%;
+    }
+
+
+    a#titletext {
+        text-decoration: none;
+        color: white;
+        width: 20%;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif, sans-serif;
+        position: absolute;
+        left: 7%;
+        top: 8%;
+        font-size: 2em;
+    }
+
+    div.navbar {
+        height: 100%;
+        display: flex;
+        width: 100%;
+        padding-bottom: 10px;
+
+        position: relative;
+    }
+
+    div.navtext {
+        padding-left: 30%;
+        height: 100%;
+        display: flex;
+        width: 70%;
+        padding-bottom: 10px;
+        padding-top: -3px;
+
+    }
+
+
+
+    div.nav {
+        font-size: 1.3em;
+        margin-left: 20px;
+        margin-top: -9px;
+        padding-bottom: 35px;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 10%;
+        margin-bottom: 1px;
+
+    }
+
+    div.nav:hover {
+        border-top: 3px solid white
+    }
+
+    div.nav:active {
+        border-top: 3px solid white
+    }
+
+    a.navobj {
+        text-decoration: none;
+        color: whitesmoke;
+        font-family: 'Indie Flower', cursive;
+        font-weight: bolder;
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif, sans-serif;
+        padding-top: -3px;
+    }
+
+    a.navobj:hover {}
+
+    /* keeping an overline when on the page */
+
+    div#sponsors {
+        border-top: 3px solid white
+    }
+
+    div#home {
+        border-top: 3px solid white
+    }
+
+    div#about {
+        border-top: 3px solid white
+    }
+
+    div#currente {
+        border-top: 3px solid white
+    }
+
+    div#achievenments {
+        border-top: 3px solid white
+    }
+
+    div#resources {
+        border-top: 3px solid white
+    }
+
+    div#contactus {
+        border-top: 3px solid white
+    }
+
+    /*main page*/
+    img#centrallimg {
+        width: 110%;
+        margin-left: -1%;
+        position: relative;
+        margin-top: -10%;
+
+    }
+
+    img#headingimg {
+        width: 20%;
+        position: absolute;
+        bottom: 20%;
+        margin-left: 30%;
+        opacity: 50%;
+    }
+
+    img#headingimg:hover {
+        opacity: 90%;
+    }
+
+    h1.heading {
+        font-size: 7em;
+        color: white;
+        position: absolute;
+        bottom: 12%;
+        margin-left: 50%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        opacity: 70%;
+    }
+
+    h1.heading:hover {
+        opacity: 100%;
+    }
+
+    div.bar {
+        background-color: rgb(0, 48, 119);
+        padding-top: 0.7%;
+        position: absolute;
+        top: 56.3vw;
+        width: 110%;
+        margin-left: -1%;
+    }
+
+    div.bars {
+        background-color: rgb(0, 48, 119);
+        padding-top: 0.7%;
+        width: 110%;
+        margin-left: -3%;
+
+        margin-top: 1%;
+    }
+
+    div#sidetext {
+        position: relative;
+        left: 3%;
+        padding-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    /*ABout us page*/
+    section.sectionformat {
+        margin-left: -0.5%;
+        width: 101%;
+        padding-top: 40%;
+        background-image: url(websitebackground.png);
+    }
+    
+    div#centralimg {
+        width: 110%;
+        margin-left: -5%;
+        max-height: 10%;
+    
+    }
+    
+    
+    
+    
+    div#secondsection0 {
+        width: 110%;
+        margin-left: -5%;
+        background: rgb(75, 44, 0);
+        background: linear-gradient(90deg, rgba(75, 44, 0, 1) 0%, rgba(180, 96, 0, 1) 35%, rgba(0, 76, 205, 1) 100%);
+        padding-bottom: 40%;
+        margin-bottom: -1%;
+    }
+    
+    section#aboutintro {
+        margin-bottom: 1%;
+    }
+    
+    div#smolimgplace1 {
+        float: right;
+        position: relative;
+        padding-right: 10%;
+    }
+    
+    img#smolimg1 {
+        width: 70%;
+        margin-top: 20%;
+        margin-right: 25%;
+        margin-bottom: 5%;
+        border-radius: 25px;
+        border: 50px solid rgba(45, 143, 255, 0.705);
+    
+    
+    }
+    
+    div#sidetext0 {
+        position: relative;
+        left: 3%;
+        padding-top: 5%;
+        margin-left: 10%;
+        margin-right: 5%;
+        float: left;
+        width: 30%;
+    
+    }
+    
+    h1.subH1 {
+        font-size: 3em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: aliceblue;
+    }
+    
+    p.text1 {
+        font-size: 1.5em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+    
+
+    /*contactus page*/
+
+    section#contactusintro {
+        width: 110%;
+        margin-left: -5%;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        background: rgb(75, 44, 0);
+        background: linear-gradient(90deg, rgba(75, 44, 0, 1) 0%, rgba(180, 96, 0, 1) 35%, rgba(0, 76, 205, 1) 100%);
+    }
+
+    div#form {
+        margin-bottom: 2vw;
+    }
+
+    iframe#contactform {
+        padding-left: 36.5%;
+    }
+
+    div#maps {
+        padding-top: 1%;
+        padding-bottom: 2%;
+
+        background-color: rgba(233, 233, 233, 0.445);
+    }
+
+    iframe#maps {
+        padding-left: 35%;
+    }
+
+    h1#black {
+        color: black;
+    }
 
 }
