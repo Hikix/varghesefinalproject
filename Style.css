@@ -82,7 +82,7 @@ div.nav:hover {
     border-top: 3px solid white
 }
 
-div.nav:active {
+div#active {
     border-top: 3px solid white
 }
 
@@ -555,6 +555,7 @@ div.member {
 img#memba1 {
     border-radius: 10%;
 }
+
 h4#memba {
     font-family: 'Courier New', Courier, monospace;
 
@@ -685,13 +686,56 @@ div#dots {
 
 /*achievements page*/
 
+section#sectionformat1 {
+margin-top: 10%;
+}
+
+
 section#Achievementsintro {
     width: 110%;
     margin-left: -5%;
-    padding-top: 3%;
-    padding-bottom: 10%;
-    background: rgb(34, 116, 195);
-    background: linear-gradient(0deg, rgba(34, 116, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    margin-top: -2.5%;
+    padding-bottom: 1%;
+    background: rgb(34, 61, 195);
+    background: linear-gradient(0deg, rgba(34, 61, 195, 1) 0%, rgba(23, 23, 23, 1) 100%);
+}
+
+
+
+ul#achieve {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
+    font-weight: bolder;
+}
+
+h1#achievetitle {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+img#centralimg2 {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    width: 100%;
+    padding-top: -3%;
+
+}
+
+h1#achieveh1 {
+    font-size: 7em;
+    color: white;
+    position: absolute;
+    bottom: 50%;
+    margin-left: 35%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 
@@ -797,6 +841,49 @@ div#thirdsection {
     padding-bottom: 40%;
     margin-bottom: -10%;
 }
+
+/*sponosrs*/
+img#sponsorimg {
+    margin-left: 30%;
+}
+
+img#sponsorimg1 {
+    margin-left: 10%;
+}
+
+img#sponsorimg3 {
+    margin-left: 42%;
+}
+
+section#resourceintro {
+    width: 100%;
+    margin-left: 0.0%;
+    margin-right: 10%;
+    background-color: white;
+
+}
+
+hr {
+    width: 50%;
+
+}
+
+p#resourcelink {
+    text-align: center
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
+    font-weight: bolder;
+}
+
+h1#sponsorheading {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
 
 /*contactus page*/
 
@@ -1512,6 +1599,7 @@ h1#black {
     }
 
 }
+
 /* 
 @media (min-width : 1720px) {
     div.bars {
@@ -1531,7 +1619,8 @@ h1#black {
         margin-right: 10%;
     }
 
-    /*contactus page*/ /*
+    /*contactus page*/
+/*
 
     section#contactusintro {
         width: 110%;
@@ -1570,7 +1659,8 @@ h1#black {
 
 @media (min-width : 1200px) {
 
-    /*nav bar*/ /*
+    /*nav bar*/
+/*
     header {
         background-color: black;
         margin: -0.75%;
@@ -1656,7 +1746,8 @@ h1#black {
 
     a.navobj:hover {}
 
-    /* keeping an overline when on the page */ /*
+    /* keeping an overline when on the page */
+/*
 
     div#sponsors {
         border-top: 3px solid white
@@ -1686,7 +1777,8 @@ h1#black {
         border-top: 3px solid white
     }
 
-    /*main page*/ /*
+    /*main page*/
+/*
     img#centrallimg {
         width: 110%;
         margin-left: -1%;
@@ -1747,7 +1839,8 @@ h1#black {
         margin-right: 10%;
     }
 
-    /*ABout us page*/ /*
+    /*ABout us page*/
+/*
     section.sectionformat {
         margin-left: -0.5%;
         width: 101%;
@@ -1820,7 +1913,8 @@ h1#black {
     }
     
 
-    /*contactus page*/ /*
+    /*contactus page*/
+/*
 
     section#contactusintro {
         width: 110%;
