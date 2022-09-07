@@ -54,7 +54,7 @@ div.navbar {
 }
 
 div.navtext {
-    padding-left: 49%;
+    padding-left: 40%;
     height: 100%;
     display: flex;
     width: 100%;
@@ -2022,7 +2022,7 @@ h1#black {
 
 }
 }
-/* 
+/* */
 /* 
 @media (min-width : 1720px) {
     div.bars {
@@ -2080,7 +2080,7 @@ h1#black {
 
 }
 */ 
-@media (min-width : 1200px) and (max-width : 2000px) {
+@media (min-width : 1200px) and (max-width : 1400px) {
 
     /*nav bar*/
     
