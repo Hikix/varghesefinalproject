@@ -266,7 +266,8 @@ section.sponsorsection {
     width: 110%;
     margin-left: -5%;
     padding-top: 1%;
-    padding-bottom: 3%;
+    padding-bottom: 4%;
+
 }
 
 h1#subH12 {
@@ -276,80 +277,44 @@ h1#subH12 {
 
 /*slideshow*/
 /* Slideshow container */
-.slideshow-container {
-    max-width: fit-content;
-    max-height: fit-content;
+.sliideshow-container {
+    margin-left: 10%;
+    margin-right: 10%;
     position: relative;
-    margin: auto;
+    border-radius: .5em;
+    padding-bottom: 10%;
 }
 
-img.sponslideimage {
-    max-width: 12.1vw;
-    max-height: 8vw;
+div.leftcontain {
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    float: left;
+}
+
+div.rightcontain {
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    float: right;
+}
+
+img.sponleftslideimage {
+    width: 60%;
+    margin-right: 5%;
+    margin-left: 14%;
+
+}
+
+img.sponrightslideimage {
+    width: 60%;
+    margin-right: 14%;
+    margin-left: 5%;
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides1 {
     display: none;
-}
-
-/* Next & previous buttons */
-.sprev,
-.snext {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -2%;
-    padding: 2%;
-    color: black;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-/* Position the "next button" to the right */
-.snext {
-    right: 0;
-    border-radius: 1% 0% 0% 1%;
-    position: absolute;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.sprev:hover,
-.snext:hover {
-    background-color: aliceblue;
-}
-
-/* Caption text */
-div.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-
-
-
-/* Fading animation */
-.fade {
-    animation-name: fade;
-    animation-duration: 1s;
-}
-
-@keyframes fade {
-    from {
-        opacity: .8
-    }
-
-    to {
-        opacity: 1
-    }
 }
 
 
@@ -863,21 +828,21 @@ h1#achieveh113 {
     font-size: 7em;
     color: white;
     position: absolute;
-    bottom: 45%;
-    margin-left: 33%;
+    bottom: 57%;
+    margin-left: 37%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
 
 img#apple {
-    margin-left: 38%;
+    margin-left: 42%;
     width: 300px;
     height: 200px;
 }
 
 img#te {
-    margin-left: 22%;
+    margin-left: 28%;
     width: 300px;
     height: 200px;
 }
@@ -895,7 +860,7 @@ img#PG {
 }
 
 img#abco {
-    margin-left: 20%;
+    margin-left: 28%;
     width: 300px;
     height: 200px;
 }
@@ -915,7 +880,7 @@ img#will {
 }
 
 img#gtc {
-    margin-left: 26%;
+    margin-left: 33%;
     width: 300px;
     height: 150px;
 }
@@ -927,13 +892,13 @@ img#ptsa {
 }
 
 img#parents {
-    margin-left: 38%;
+    margin-left: 41%;
     width: 300px;
     height: 200px;
 }
 
 img#united {
-    margin-left: 12%;
+    margin-left: 26%;
     width: 300px;
     height: 150px;
 }
